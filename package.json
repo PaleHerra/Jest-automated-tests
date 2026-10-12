@@ -1,0 +1,23 @@
+{
+  "name": "jest-automated-tests",
+  "version": "1.0.0",
+  "description": "Jest automated tests",
+  "homepage": "https://github.com/PaleHerra/Jest-automated-tests#readme",
+  "bugs": {
+    "url": "https://github.com/PaleHerra/Jest-automated-tests/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaleHerra/Jest-automated-tests.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+  }
+}
